@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": {"model": "airlocks:block/block_canvas"},
+    "canvas_safe=false,canvas_signal=0": {"model": "airlocks:block/block_canvas"},
+    "canvas_safe=false,canvas_signal=1": {"model": "airlocks:block/block_canvas"},
+    "canvas_safe=false,canvas_signal=2": {"model": "airlocks:block/block_canvas"},
+    "canvas_safe=false,canvas_signal=3": {"model": "airlocks:block/block_canvas"},
+
+    "canvas_safe=true,canvas_signal=0": {"model": "airlocks:block/block_canvas"},
+    "canvas_safe=true,canvas_signal=1": {"model": "airlocks:block/block_canvas"},
+    "canvas_safe=true,canvas_signal=2": {"model": "airlocks:block/block_canvas"},
+    "canvas_safe=true,canvas_signal=3": {"model": "airlocks:block/block_canvas"}
+  }
+}
