@@ -1,6 +1,5 @@
 {
   "variants": {
-    "": {"model": "airlocks:block/block_walkway"},
     "facing=south,powered=false": {"model":  "airlocks:block/block_walkway"},
     "facing=west,powered=false": {"model":  "airlocks:block/block_walkway", "y": 90},
     "facing=north,powered=false": {"model":  "airlocks:block/block_walkway", "y": 180},

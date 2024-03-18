@@ -14,14 +14,20 @@ public class ModCreativeModeTabs {
         public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS=
                 DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Airlocks.MODID);
 
-        public static final RegistryObject<CreativeModeTab> AIRLOCKS_Tab = CREATIVE_MODE_TABS.register("airlocks_tab",
-                () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CANVAS_FABRIC.get()))
+        public static final RegistryObject<CreativeModeTab> AIRLOCKS_TAB = CREATIVE_MODE_TABS.register("airlocks_tab",
+                () -> CreativeModeTab.builder()
+                        .icon(() -> new ItemStack(ModItems.CANVAS_FABRIC.get()))
                         .title(Component.translatable("creativetab.airlocks_tab"))
                         .displayItems((pParameters, pOutput) -> {
                                 pOutput.accept(ModItems.CANVAS_FABRIC.get());
                                 pOutput.accept(ModItems.CONSOLE_CASE.get());
+                                pOutput.accept(ModItems.CONSOLE_BOARD.get());
+                                pOutput.accept(ModItems.CONSOLE_SCREEN.get());
+
                                 pOutput.accept(ModBlocks.BLOCK_CANVAS.get());
                                 pOutput.accept(ModBlocks.BLOCK_WALKWAY.get());
+                                pOutput.accept(ModBlocks.BLOCK_AIRLOCK_CONSOLE.get());
+                                pOutput.accept(ModBlocks.BLOCK_AIRLOCK_DOOR.get());
                         })
                         .build());
 

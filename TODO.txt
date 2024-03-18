@@ -1,0 +1,51 @@
+TODO List
+- is a list entry
+> means complete
+X means rejected
+! means important
+
+1.20 Upgrade
+-
+
+Airlock Console
+X - Animated texture 0% -> 100% for the console
+> - Link to Canvas.
+- GUI interface?
+- Add Pressure Unstable.
+
+Canvas
+> - Proprietary inter-device intra-airlock connection system
+> - Canvas corner blocks
+- Dyed Canvas! 4 White Canvas in a diamond with a dye in the middle.
+
+Walkways
+> - Lighting
+> - Activation via console?
+
+Doors
+- 1x2, 2x2, variable like a painting.
+- Animated model? Probably not.
+
+Poster
+- Main visual - Complete airlock
+- Little visuals - Each and every part.
+- Text: Background accompanying main visual, tiny texts for each part of the small visuals.
+
+Airlock Ideas
+-	Console
+    o	Integrates with the canvas and operates things also connected to the canvas.
+    o	Should update other consoles also connected to the canvas
+-	Canvas Block
+    o	The main frame of the airlock, connecting everything up and making an enclosed space.
+    o	Almost acts as redstone, connecting the airlock components up.
+-	Automatic Door sizing
+    o	Similar to paintings, but only detecting 1x2 and 2x2.
+    o	Upgrade later?
+    o	Start with 1x2.
+-	Walkway
+    o	Completely different block
+    o	Emits light out of certain directions?
+    o	Emits smoke particles
+-	Corner Canvas Block:
+    o	Completely separate Corner Canvas block (easy)
+    o	Detection using Canvas block placing (hard)

@@ -1,14 +1,24 @@
 {
   "variants": {
-    "": {"model": "airlocks:block/block_canvas"},
-    "canvas_safe=false,canvas_signal=0": {"model": "airlocks:block/block_canvas"},
-    "canvas_safe=false,canvas_signal=1": {"model": "airlocks:block/block_canvas"},
-    "canvas_safe=false,canvas_signal=2": {"model": "airlocks:block/block_canvas"},
-    "canvas_safe=false,canvas_signal=3": {"model": "airlocks:block/block_canvas"},
+    "half=bottom,corner=false,facing=north": {"model": "airlocks:block/block_canvas"},
+    "half=bottom,corner=false,facing=east": {"model": "airlocks:block/block_canvas", "y": 90},
+    "half=bottom,corner=false,facing=south": {"model": "airlocks:block/block_canvas", "y": 180},
+    "half=bottom,corner=false,facing=west": {"model": "airlocks:block/block_canvas", "y": 270},
 
-    "canvas_safe=true,canvas_signal=0": {"model": "airlocks:block/block_canvas"},
-    "canvas_safe=true,canvas_signal=1": {"model": "airlocks:block/block_canvas"},
-    "canvas_safe=true,canvas_signal=2": {"model": "airlocks:block/block_canvas"},
-    "canvas_safe=true,canvas_signal=3": {"model": "airlocks:block/block_canvas"}
+    "half=bottom,corner=true,facing=north": {"model": "airlocks:block/block_canvas_corner"},
+    "half=bottom,corner=true,facing=east": {"model": "airlocks:block/block_canvas_corner", "y": 90},
+    "half=bottom,corner=true,facing=south": {"model": "airlocks:block/block_canvas_corner", "y": 180},
+    "half=bottom,corner=true,facing=west": {"model": "airlocks:block/block_canvas_corner", "y": 270},
+
+
+    "half=top,corner=false,facing=north": {"model": "airlocks:block/block_canvas", "x": 90},
+    "half=top,corner=false,facing=east": {"model": "airlocks:block/block_canvas", "y": 90, "z": 90},
+    "half=top,corner=false,facing=south": {"model": "airlocks:block/block_canvas", "x": 90, "y": 180},
+    "half=top,corner=false,facing=west": {"model": "airlocks:block/block_canvas", "y": 270, "z": 90},
+
+    "half=top,corner=true,facing=north": {"model": "airlocks:block/block_canvas_corner", "x": 270},
+    "half=top,corner=true,facing=east": {"model": "airlocks:block/block_canvas_corner", "y": 90, "x": 270},
+    "half=top,corner=true,facing=south": {"model": "airlocks:block/block_canvas_corner", "x": 270, "y": 180},
+    "half=top,corner=true,facing=west": {"model": "airlocks:block/block_canvas_corner", "y": 270, "x": 270}
   }
 }

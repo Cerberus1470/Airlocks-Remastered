@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "IRI",
+    "RGR",
+    "IRI"
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "R":
+    {
+      "item": "minecraft:redstone"
+    },
+    "G":
+    {
+      "item": "minecraft:glass"
+    }
+  },
+
+  "result":
+  {
+    "item": "airlocks:console_screen",
+    "count": 2
+  }
+}

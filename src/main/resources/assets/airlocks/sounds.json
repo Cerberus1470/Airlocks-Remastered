@@ -1,0 +1,32 @@
+{
+  "block_console_keypress": {
+    "subtitle": "sounds.airlocks.block_console_keypress",
+    "sounds": [
+      "airlocks:block_console_keypress"
+    ]
+  },
+  "block_console_pressurizing": {
+    "subtitle": "sounds.airlocks.block_console_pressurizing",
+    "sounds": [
+      "airlocks:block_console_pressurizing"
+    ]
+  },
+  "block_console_complete": {
+    "subtitle": "sounds.airlocks.block_console_complete",
+    "sounds": [
+      "airlocks:block_console_complete"
+    ]
+  },
+  "block_door_open": {
+    "subtitle": "sounds.airlocks.block_door_open",
+    "sounds": [
+      "airlocks:block_door_open"
+    ]
+  },
+  "block_door_close": {
+    "subtitle": "sounds.airlocks.block_door_close",
+    "sounds": [
+      "airlocks:block_door_close"
+    ]
+  }
+}

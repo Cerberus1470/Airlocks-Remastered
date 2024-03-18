@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " W ",
+    "WOW",
+    " W "
+  ],
+
+  "key":
+  {
+    "W":
+    {
+      "item": "airlocks:canvas_fabric"
+    },
+    "O":
+    {
+      "item": "minecraft:obsidian"
+    }
+  },
+
+  "result":
+  {
+    "item": "airlocks:block_canvas",
+    "count": 4
+  }
+}

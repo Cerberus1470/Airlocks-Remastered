@@ -1,7 +1,20 @@
 {
   "block.airlocks.block_canvas": "Airlock Canvas",
   "block.airlocks.block_walkway": "Airlock Walkway",
+  "block.airlocks.block_airlock_console": "Airlock Console",
+  "block.airlocks.block_airlock_door": "Airlock Door",
+
   "item.airlocks.canvas_fabric": "Canvas Fabric",
   "item.airlocks.console_case": "Console Case",
+  "item.console_screen.name": "Console Screen",
+  "item.console_board.name": "Console Board",
+
+  "sounds.airlocks.block_console_keypress": "Console Keypress",
+  "sounds.airlocks.block_console_pressurizing": "Console Pressurizing",
+  "sounds.airlocks.block_console_complete": "Console Complete",
+
+  "sounds.airlocks.block_door_open": "Door Hisses Open",
+  "sounds.airlocks.block_door_close": "Door Seals Closed",
+
   "creativetab.airlocks_tab": "Airlocks Remastered"
 }

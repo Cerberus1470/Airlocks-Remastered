@@ -12,8 +12,9 @@ public class ModItems {
                 DeferredRegister.create(ForgeRegistries.ITEMS, Airlocks.MODID);
 
         public static final RegistryObject<Item> CANVAS_FABRIC = ITEMS.register("canvas_fabric", () -> new Item(new Item.Properties()));
-
         public static final RegistryObject<Item> CONSOLE_CASE = ITEMS.register("console_case", () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> CONSOLE_BOARD = ITEMS.register("console_board", () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> CONSOLE_SCREEN = ITEMS.register("console_screen", () -> new Item(new Item.Properties()));
 
         public static void register(IEventBus eventBus) {
                 ITEMS.register(eventBus);

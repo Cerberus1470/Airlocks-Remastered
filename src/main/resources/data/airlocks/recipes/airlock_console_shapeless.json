@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients":
+  [
+
+    {
+      "item": "airlocks:console_case"
+    },
+    {
+      "item": "airlocks:console_screen"
+    },
+    {
+      "item": "airlocks:console_board"
+    }
+
+  ],
+
+  "result":
+  {
+    "item": "airlocks:block_airlock_console",
+    "count": 1
+  }
+}

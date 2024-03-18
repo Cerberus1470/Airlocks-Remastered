@@ -1,0 +1,193 @@
+{
+  "variants": {
+    "error=0,face=wall,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 0},
+    "error=0,face=wall,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 0},
+    "error=0,face=wall,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 0},
+    "error=0,face=wall,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 0},
+
+    "error=0,face=wall,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 90},
+    "error=0,face=wall,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 90},
+    "error=0,face=wall,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 90},
+    "error=0,face=wall,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 90},
+
+    "error=0,face=wall,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 180},
+    "error=0,face=wall,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 180},
+    "error=0,face=wall,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 180},
+    "error=0,face=wall,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 180},
+
+    "error=0,face=wall,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 270},
+    "error=0,face=wall,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 270},
+    "error=0,face=wall,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 270},
+    "error=0,face=wall,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 270},
+
+
+    "error=0,face=ceiling,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 0},
+    "error=0,face=ceiling,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 0},
+    "error=0,face=ceiling,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 0},
+    "error=0,face=ceiling,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 0},
+
+    "error=0,face=ceiling,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 90},
+    "error=0,face=ceiling,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 90},
+    "error=0,face=ceiling,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 90},
+    "error=0,face=ceiling,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 90},
+
+    "error=0,face=ceiling,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 180},
+    "error=0,face=ceiling,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 180},
+    "error=0,face=ceiling,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 180},
+    "error=0,face=ceiling,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 180},
+
+    "error=0,face=ceiling,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 270},
+    "error=0,face=ceiling,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 270},
+    "error=0,face=ceiling,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 270},
+    "error=0,face=ceiling,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 270},
+
+
+    "error=0,face=floor,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 0},
+    "error=0,face=floor,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 0},
+    "error=0,face=floor,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 0},
+    "error=0,face=floor,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 0},
+
+    "error=0,face=floor,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 90},
+    "error=0,face=floor,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 90},
+    "error=0,face=floor,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 90},
+    "error=0,face=floor,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 90},
+
+    "error=0,face=floor,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 180},
+    "error=0,face=floor,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 180},
+    "error=0,face=floor,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 180},
+    "error=0,face=floor,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 180},
+
+    "error=0,face=floor,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_depressurized", "y": 270},
+    "error=0,face=floor,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_pressurized", "y": 270},
+    "error=0,face=floor,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/stable_pressurizing", "y": 270},
+    "error=0,face=floor,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/stable_depressurizing", "y": 270},
+
+
+
+    "error=1,face=wall,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 0},
+    "error=1,face=wall,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 0},
+    "error=1,face=wall,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 0},
+    "error=1,face=wall,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 0},
+
+    "error=1,face=wall,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 90},
+    "error=1,face=wall,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 90},
+    "error=1,face=wall,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 90},
+    "error=1,face=wall,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 90},
+
+    "error=1,face=wall,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 180},
+    "error=1,face=wall,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 180},
+    "error=1,face=wall,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 180},
+    "error=1,face=wall,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 180},
+
+    "error=1,face=wall,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 270},
+    "error=1,face=wall,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 270},
+    "error=1,face=wall,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 270},
+    "error=1,face=wall,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 270},
+
+
+    "error=1,face=ceiling,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 0},
+    "error=1,face=ceiling,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 0},
+    "error=1,face=ceiling,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 0},
+    "error=1,face=ceiling,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 0},
+
+    "error=1,face=ceiling,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 90},
+    "error=1,face=ceiling,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 90},
+    "error=1,face=ceiling,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 90},
+    "error=1,face=ceiling,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 90},
+
+    "error=1,face=ceiling,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 180},
+    "error=1,face=ceiling,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 180},
+    "error=1,face=ceiling,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 180},
+    "error=1,face=ceiling,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 180},
+
+    "error=1,face=ceiling,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 270},
+    "error=1,face=ceiling,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 270},
+    "error=1,face=ceiling,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 270},
+    "error=1,face=ceiling,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 270},
+
+
+    "error=1,face=floor,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 0},
+    "error=1,face=floor,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 0},
+    "error=1,face=floor,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 0},
+    "error=1,face=floor,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 0},
+
+    "error=1,face=floor,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 90},
+    "error=1,face=floor,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 90},
+    "error=1,face=floor,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 90},
+    "error=1,face=floor,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 90},
+
+    "error=1,face=floor,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 180},
+    "error=1,face=floor,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 180},
+    "error=1,face=floor,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 180},
+    "error=1,face=floor,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 180},
+
+    "error=1,face=floor,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 270},
+    "error=1,face=floor,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 270},
+    "error=1,face=floor,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_1_0", "y": 270},
+    "error=1,face=floor,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_1_100", "y": 270},
+
+
+
+    "error=2,face=wall,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 0},
+    "error=2,face=wall,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 0},
+    "error=2,face=wall,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 0},
+    "error=2,face=wall,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 0},
+
+    "error=2,face=wall,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 90},
+    "error=2,face=wall,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 90},
+    "error=2,face=wall,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 90},
+    "error=2,face=wall,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 90},
+
+    "error=2,face=wall,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 180},
+    "error=2,face=wall,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 180},
+    "error=2,face=wall,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 180},
+    "error=2,face=wall,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 180},
+
+    "error=2,face=wall,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 270},
+    "error=2,face=wall,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 270},
+    "error=2,face=wall,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 270},
+    "error=2,face=wall,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 270},
+
+
+    "error=2,face=ceiling,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 0},
+    "error=2,face=ceiling,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 0},
+    "error=2,face=ceiling,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 0},
+    "error=2,face=ceiling,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 0},
+
+    "error=2,face=ceiling,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 90},
+    "error=2,face=ceiling,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 90},
+    "error=2,face=ceiling,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 90},
+    "error=2,face=ceiling,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 90},
+
+    "error=2,face=ceiling,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 180},
+    "error=2,face=ceiling,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 180},
+    "error=2,face=ceiling,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 180},
+    "error=2,face=ceiling,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 180},
+
+    "error=2,face=ceiling,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 270},
+    "error=2,face=ceiling,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 270},
+    "error=2,face=ceiling,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 270},
+    "error=2,face=ceiling,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 270},
+
+
+    "error=2,face=floor,facing=south,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 0},
+    "error=2,face=floor,facing=south,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 0},
+    "error=2,face=floor,facing=south,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 0},
+    "error=2,face=floor,facing=south,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 0},
+
+    "error=2,face=floor,facing=west,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 90},
+    "error=2,face=floor,facing=west,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 90},
+    "error=2,face=floor,facing=west,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 90},
+    "error=2,face=floor,facing=west,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 90},
+
+    "error=2,face=floor,facing=north,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 180},
+    "error=2,face=floor,facing=north,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 180},
+    "error=2,face=floor,facing=north,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 180},
+    "error=2,face=floor,facing=north,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 180},
+
+    "error=2,face=floor,facing=east,powered=false,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 270},
+    "error=2,face=floor,facing=east,powered=false,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 270},
+    "error=2,face=floor,facing=east,powered=true,pressurized=false": {"model": "airlocks:block/block_airlock_console/error_2_0", "y": 270},
+    "error=2,face=floor,facing=east,powered=true,pressurized=true": {"model": "airlocks:block/block_airlock_console/error_2_100", "y": 270}
+    }
+}

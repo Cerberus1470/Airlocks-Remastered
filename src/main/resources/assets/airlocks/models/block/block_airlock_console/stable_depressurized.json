@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "airlocks:block/console/stable_depressurized",
+		"particle": "airlocks:block/console/stable_depressurized"
+	},
+	"elements": [
+		{
+			"from": [3, 1, 0],
+			"to": [13, 15, 1],
+			"faces": {
+				"north": {"uv": [0, 0, 0.125, 0.125], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.125, 0.125], "texture": "#1"},
+				"south": {"uv": [2.75, 0, 13.25, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.125, 0.125], "texture": "#1"},
+				"up": {"uv": [0, 0, 0.125, 0.125], "texture": "#1"},
+				"down": {"uv": [0, 0, 0.125, 0.125], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -76, 0],
+			"translation": [-7.25, 4.25, 3.5],
+			"scale": [0.51, 0.51, 0.51]
+		}
+	}
+}
