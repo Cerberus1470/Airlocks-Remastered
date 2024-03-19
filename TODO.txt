@@ -4,8 +4,7 @@ TODO List
 X means rejected
 ! means important
 
-1.20 Upgrade
--
+1.20 Upgrade - COMPLETE
 
 Airlock Console
 X - Animated texture 0% -> 100% for the console
@@ -21,6 +20,7 @@ Canvas
 Walkways
 > - Lighting
 > - Activation via console?
+- Flip model
 
 Doors
 - 1x2, 2x2, variable like a painting.

@@ -89,7 +89,6 @@ public class BlockAirlockConsole extends ButtonBlock {
         @Override
         public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
                 state = state.setValue(ERROR, 0);
-                BlockWalkway.bruh = level;
                 BlockPos connectedCanvas = getConnectedCanvas(level, state, pos);
                 if (state.getValue(POWERED)) {
                         return InteractionResult.sidedSuccess(level.isClientSide);
