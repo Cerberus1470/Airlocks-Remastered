@@ -6,6 +6,46 @@ X means rejected
 
 1.20 Upgrade - COMPLETE
 
+Unnamed configuration tool
+- Can right-click any airlocks block and modify certain attributes
+  - Canvas:
+    - Not sure yet... Perhaps corner model?
+  - Console
+    - Pressure to pressurize until?
+  - Door
+    - Not sure
+  - Walkway
+    - Lighting
+
+Config file
+- Modify higher-level properties of airlocks
+  - Canvas:
+      - Not sure yet... Perhaps automatic corners?
+    - Console
+      - Animated texture
+      - Time
+    - Door
+      - Animated open/close
+    - Walkway
+      - How many particles
+
+Complete Airlock
+- Concept to package an airlock to use with a bigger console inside the space base. Details below.
+- Possibly a tool to select each part of the airlock, capturing block positions and saving them.
+
+Control Console
+- Console to control airlocks throughout the base.
+- Can be connected by canvas or wirelessly.
+  - Canvas could be easy, but also could be difficult/ugly
+  - Wireless would be from the tool (unnamed config tool or a different tool)
+- Collects and saves complete airlocks to control:
+  - Pressurize at will.
+  - Lock/close doors
+  - Turn on walkway lights
+
+Neighbor changed
+- Implement proper protocols for updating by neighbor change (mainly for the consoles)
+
 Airlock Console
 X - Animated texture 0% -> 100% for the console
 > - Link to Canvas.
@@ -23,8 +63,12 @@ Walkways
 - Flip model
 
 Doors
-- 1x2, 2x2, variable like a painting.
+X - 1x2, 2x2, variable like a painting.
+  - Rejected, the 2x2 will be its own block.
 - Animated model? Probably not.
+- 2x2 circular like in the Martian spaceships
+  - Sliding/Rotational
+  - Frame/door crafted separately?
 
 Poster
 - Main visual - Complete airlock
