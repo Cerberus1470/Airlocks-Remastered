@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                                 pOutput.accept(ModBlocks.BLOCK_WALKWAY.get());
                                 pOutput.accept(ModBlocks.BLOCK_AIRLOCK_CONSOLE.get());
                                 pOutput.accept(ModBlocks.BLOCK_AIRLOCK_DOOR.get());
+                                pOutput.accept(ModBlocks.BLOCK_TESTING.get());
                         })
                         .build());
 

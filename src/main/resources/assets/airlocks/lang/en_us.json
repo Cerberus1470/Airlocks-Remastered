@@ -3,6 +3,7 @@
   "block.airlocks.block_walkway": "Airlock Walkway",
   "block.airlocks.block_airlock_console": "Airlock Console",
   "block.airlocks.block_airlock_door": "Airlock Door",
+  "block.airlocks.block_testing": "Testing!",
 
   "item.airlocks.canvas_fabric": "Canvas Fabric",
   "item.airlocks.console_case": "Console Case",

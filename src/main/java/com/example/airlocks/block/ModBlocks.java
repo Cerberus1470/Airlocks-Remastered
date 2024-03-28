@@ -1,10 +1,7 @@
 package com.example.airlocks.block;
 
 import com.example.airlocks.Airlocks;
-import com.example.airlocks.block.custom.BlockAirlockConsole;
-import com.example.airlocks.block.custom.BlockAirlockDoor;
-import com.example.airlocks.block.custom.BlockCanvas;
-import com.example.airlocks.block.custom.BlockWalkway;
+import com.example.airlocks.block.custom.*;
 import com.example.airlocks.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -30,6 +27,8 @@ public class ModBlocks {
                 () -> new BlockAirlockConsole(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
         public static final RegistryObject<Block> BLOCK_AIRLOCK_DOOR = registerBlock("block_airlock_door",
                 () -> new BlockAirlockDoor(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+        public static final RegistryObject<Block> BLOCK_TESTING = registerBlock("block_testing",
+                () -> new BlockTesting(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<Block> block) {

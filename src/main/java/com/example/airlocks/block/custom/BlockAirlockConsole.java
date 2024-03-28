@@ -40,8 +40,6 @@ public class BlockAirlockConsole extends ButtonBlock {
                 Block.box(3D, 1D, 15D, 13D, 15D, 16D), //North
                 Block.box(0D, 1D, 3D, 1D, 15D, 13D) //East
         };
-
-//        public static final DirectionProperty FACING = DirectionProperty.create("facing", Direction.Plane.HORIZONTAL);
         public static final BooleanProperty PRESSURIZED = BooleanProperty.create("pressurized");
         public static final IntegerProperty ERROR = IntegerProperty.create("error", 0, 2);
 

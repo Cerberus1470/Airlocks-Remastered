@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "airlocks:block/block_testing"
+    }
+  }
+}
