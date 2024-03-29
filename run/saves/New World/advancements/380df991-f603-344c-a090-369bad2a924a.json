@@ -7,6 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cherry_grove": "2024-03-28 23:23:15 -0700",
+      "minecraft:frozen_peaks": "2024-03-28 23:23:20 -0700",
       "minecraft:meadow": "2024-03-11 14:58:00 -0700"
     },
     "done": false

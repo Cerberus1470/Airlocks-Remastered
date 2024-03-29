@@ -21,7 +21,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:true
 hideLightningFlashes:false
-mouseSensitivity:0.5
+mouseSensitivity:0.39577464788732386
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -70,7 +70,7 @@ attackIndicator:1
 narrator:0
 tutorialStep:none
 mouseWheelSensitivity:1.0
-rawMouseInput:true
+rawMouseInput:false
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 skipRealms32bitWarning:false
@@ -119,7 +119,7 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 soundCategory_master:0.201158940397351
-soundCategory_music:0.2605633802816901
+soundCategory_music:0.036619718309859176
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
